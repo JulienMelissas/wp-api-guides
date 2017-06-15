@@ -8,4 +8,4 @@ It is apparent that we need some user guides to get people started for the [REST
 - [ ] Using the [wp-api backbone client](https://github.com/WP-API/client-js) to consume the WP-API - examples with grabbing posts and showing it on a page
 
 ## Want to help?
-Awesome! Feel free to fork this repo and start writing a guide. I will add some formatting rules for the guides shortly. We will be (loosely) following the formatting of the [wp-cli handbook repo](https://github.com/wp-cli/handbookhttps://github.com/wp-cli/handbook).
+Awesome! Feel free to fork this repo and start writing a guide. I will add some formatting rules for the guides shortly. We will be (loosely) following the formatting of the [wp-cli handbook repo](https://github.com/wp-cli/handbook).
