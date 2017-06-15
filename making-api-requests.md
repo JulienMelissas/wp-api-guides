@@ -39,4 +39,23 @@ curl GET http://demo.wp-api.org/wp-json/wp/v2/posts
 ```
 
 This will pull the JSON document into your command line.  If you are building apps or sites that leverage executable commands from the command CURL can be helpful.  However, if you are not using the command line then it would not be a recommended solution.
+
+
+## Making API Requests with JavaScript
+
+Something here about how great JS is, blablabla.
+
+Take a deeper dive with these examples:
+ - [Using JavaScript with `fetch()`](example-javascript-and-fetch.md)
+ - [Using jQuery and `jQuery.ajax()`](example-jquery-ajax.md)
+ - [Using Backbone and the Backbone Javascript Client](example-backbone-wpapi-client.md)
+
+
+## Making API Requests with PHP
+
+Something here about how great PHP is, blablabla.
+
+Take a deeper dive with these examples:
+ - [Using PHP with `wp_remote_get()` and `wp_remote_post()`](example-php-remote.md)
+ - [Using PHP with `rest_do_request()`](example-php-rest-do-request.md)
  
