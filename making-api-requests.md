@@ -7,6 +7,7 @@ This guide is to help you get setup with making requests to the WordPress REST A
 The easiest way to make requests to the WordPress REST API is in your browser.  If you navigate to the root of the WP REST API you can view it in the browser.
 
 Try these links:
+
 - http://demo.wp-api.org/wp-json/
 - http://demo.wp-api.org/wp-json/wp/v2/posts
 
@@ -26,7 +27,32 @@ curl -X OPTIONS -i http://demo.wp-api.org/wp-json/wp/v2/posts
 
 This will pull the JSON document into your command line.  If you are building apps or sites that leverage executable commands from the command CURL can be helpful.  However, if you are not using the command line then it would not be a recommended solution.
 
-## Requests with XMLHttpRequest in a Theme
+## Making API Requests with Fetch and Vanilla JavaScript in a Theme
+
+Fetch is a web api that is aimed to replace XMLHTTPRequests, the original method for working with AJAX and HTTP Requests.  Fetch is supported in the latest version of modern web browsers (see a [polyfill here if needed](https://www.npmjs.com/package/whatwg-fetch)).
+
+In order to get
+
+```php
+<?php
+
+  function apidemo_setup() {
+
+    wp_enqueue_script( 'apidemo', get_template_directory_uri() . '/assets/js/api.js', array('jquery'), null, true );
+
+  }
+  add_action( 'wp_enqueue_scripts', 'apidemo_scripts' );
+
+;?>
+```
+
+With that setup in your functions.php you can create an assets/js/api.js file to put your XMLHTTPRequests code.  This code will handle pulling in your API Requests into JavaScript.
+
+```js
+
+
+```
+
 
 ## Making API Requests with jQuery in a Theme
 
