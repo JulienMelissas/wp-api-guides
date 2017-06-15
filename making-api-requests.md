@@ -26,6 +26,8 @@ curl -X OPTIONS -i http://demo.wp-api.org/wp-json/wp/v2/posts
 
 This will pull the JSON document into your command line.  If you are building apps or sites that leverage executable commands from the command CURL can be helpful.  However, if you are not using the command line then it would not be a recommended solution.
 
+## Requests with XMLHttpRequest
+
 ## Requests with jQuery in a Theme
 
-jQuery has a great built AJAX functionality that makes making
+jQuery has great built AJAX functionality that makes WordPress API Requests easy.  The first step is to load your
