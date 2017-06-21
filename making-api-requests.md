@@ -48,7 +48,7 @@ Something here about how great JS is, blablabla.
 Take a deeper dive with these examples:
  - [Using JavaScript with `fetch()`](example-javascript-and-fetch.md)
  - [Using jQuery and `jQuery.ajax()`](example-jquery-ajax.md)
- - [Using Backbone and the Backbone Javascript Client](example-backbone-wpapi-client.md)
+ - [Using Backbone and the Backbone Javascript Client](https://developer.wordpress.org/rest-api/using-the-rest-api/backbone-javascript-client/)
 
 
 ## Making API Requests with PHP
