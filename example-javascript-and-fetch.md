@@ -20,7 +20,7 @@ In order to get our JavaScript working, we first have to enqueue the JavaScript 
 With that setup in your functions.php you can create an assets/js/api.js file to put your Fetch code for the API Request.  This code will handle pulling in your API Requests into JavaScript.
 
 ```js
-var apiURL = 'http://demo.wp-api.org/wp-json';
+var apiRoot = 'http://demo.wp-api.org/wp-json';
 
 // Request latest posts
 fetch(  apiRoot + '/wp/v2/posts/' )
